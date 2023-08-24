@@ -83,6 +83,11 @@ print(prueba_de_metodo_cuatro)
 #prueba_de_metodo_cinco = texto_dos.index("5")
 #print(prueba_de_metodo_cinco)
 
+#Debemos de escribir correctamente el valor dentro de los parámetros para poder encontrar su posición.
+lista_de_prueba = ["jaja", "hola"]
+prueba_de_metodo_cinco = lista_de_prueba.index("hola")
+print(prueba_de_metodo_cinco)
+
 #método isnumeric, esta función encuentra un elemento númerico dentro de una string y dará como resultado True si lo llegará a encontrar.
 #cabe recordar que no le podemos dar un parametro, ya sea un número o cáracter, ya que esta función no está buscando el índice o posición del número.
 #sino mas bien, solo nos indicará si toda la string tiene elementos númerico con true o false.
